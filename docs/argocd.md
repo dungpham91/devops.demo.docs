@@ -10,10 +10,15 @@ By the time we deploy ArgoCD, we have completed:
 
 ### Table of contents
 
-- [1. Use in local environment](#1-use-in-local-environment)
-- [2. Automatically build and push to ECR with GitHub Actions](#2-automatically-build-and-push-to-ecr-with-github-actions)
-  - [2.1 Update secrets for GitHub Actions](#21-update-secrets-for-github-actions)
-  - [2.2 GHA workflow explained](#22-gha-workflow-explained)
+- [1. Structure of the repository](#1-structure-of-the-repository)
+- [2. How to use this repository](#2-how-to-use-this-repository)
+  - [2.1 Create ACM cert](#21-create-acm-cert)
+  - [2.2 Check if the IAM user has access to EKS resources](#22-check-if-the-iam-user-has-access-to-eks-resources)
+  - [2.3 Setup on Bastion instance](#23-setup-on-bastion-instance)
+  - [2.4 Install some tools on EKS cluster](#24-install-some-tools-on-eks-cluster)
+    - [2.4.1 ALB Ingress Controller](#241-alb-ingress-controller)
+    - [2.4.2 ArgoCD](#242-argocd)
+- [3. Check the results](#3-check-the-results)
 
 ## 1. Structure of the repository
 
