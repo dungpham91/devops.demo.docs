@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: devops.demo.docs
+  namespace: argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: https://github.com/dungpham91/devops.demo.argocd
+  password: ghp_wQArfr2xzFSP5pphXXXXXXXXXXXXXXXXXXXX
+  username: not-used

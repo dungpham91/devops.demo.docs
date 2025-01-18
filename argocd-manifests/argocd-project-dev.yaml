@@ -1,0 +1,22 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: dev
+  namespace: argocd
+spec:
+  description: "Project for development environment (dev)"
+  sourceRepos:
+    - "*"
+  destinations:
+    - namespace: "*"
+      server: "https://kubernetes.default.svc"
+      name: in-cluster
+  clusterResourceWhitelist:
+    - group: "*"
+      kind: "*"
+  namespaceResourceWhitelist:
+    - group: "*"
+      kind: "*"
+  syncWindows: []
+  orphanedResources: 
+    warn: true
