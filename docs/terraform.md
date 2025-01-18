@@ -18,6 +18,18 @@ This repository is used to:
 
 - Create IAM access entries inside EKS cluster, after creating EKS cluster, we can assign IAMs to have access to resources in the cluster.
 
+### Table of contents
+
+- [1. Structure of the repository](#1-structure-of-the-repository)
+- [2. How to use this repository](#2-how-to-use-this-repository)
+  - [2.1 Add GitHub Actions secrets](#21-add-github-actions-secrets)
+  - [2.2 Run workflow to create S3 bucket for remote backend](#22-run-workflow-to-create-s3-bucket-for-remote-backend)
+  - [2.3 Create custom AMI using Packer](#23-create-custom-ami-using-packer)
+    - [2.3.1 Update VPC ID and Public subnet for Packer](#231-update-vpc-id-and-public-subnet-for-packer)
+    - [2.3.2 GitHub action automatically triggers Packer build](#232-github-action-automatically-triggers-packer-build)
+  - [2.4 Create PR and apply Terraform with Atlantis](#24-create-pr-and-apply-terraform-with-atlantis)
+- [3. Clean up](#3-clean-up)
+
 ## 1. Structure of the repository
 
 Below is an explanation of the directories and files contained in the repository.
