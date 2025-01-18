@@ -28,13 +28,13 @@ There are a few things I have to cover first.
 
 In addition to this general document, you should read the documents given in the order in the following table. To understand the entire process of system setup and application deployment.
 
-| Document | Repository contains code |Notes |
-| ------ | ------ | ------ |
-| 1. [terraform.md](./docs/terraform.md) | https://github.com/dungpham91/devops.demo.terraform | Documenting the details of automated infrastructure deployment using Terraform and Atlantis is the first step in the entire process. |
-| 2. [frontend.md](./docs/frontend.md) | https://github.com/dungpham91/devops.demo.frontend | See how to run a frontend app, scan it, build it, and push it to ECR so it's ready to deploy to an EKS cluster using ArgoCD. |
-| 3. [backend.md](./docs/backend.md) | https://github.com/dungpham91/devops.demo.backend | See how to run a backend app, scan it, build it, and push it to ECR so it's ready to deploy to an EKS cluster using ArgoCD. |
-| 4. [argocd.md](./docs/argocd.md) | https://github.com/dungpham91/devops.demo.argocd | See how to install, setup, and deploy applications to an EKS cluster using ArgoCD, and what it looks like to adopt GitOps. |
-| 5. ansible.md | Coming soon!!! |
+| No. | Document | Repository contains code |Notes |
+| ------ | ------ | ------ | ------ |
+| 1. | [terraform.md](./docs/terraform.md) | [dungpham91/devops.demo.terraform](https://github.com/dungpham91/devops.demo.terraform) | Documenting the details of automated infrastructure deployment using Terraform and Atlantis is the first step in the entire process. |
+| 2. | [frontend.md](./docs/frontend.md) | [dungpham91/devops.demo.frontend](https://github.com/dungpham91/devops.demo.frontend) | See how to run a frontend app, scan it, build it, and push it to ECR so it's ready to deploy to an EKS cluster using ArgoCD. |
+| 3. | [backend.md](./docs/backend.md) | [dungpham91/devops.demo.backend](https://github.com/dungpham91/devops.demo.backend) | See how to run a backend app, scan it, build it, and push it to ECR so it's ready to deploy to an EKS cluster using ArgoCD. |
+| 4. | [argocd.md](./docs/argocd.md) | [dungpham91/devops.demo.argocd](https://github.com/dungpham91/devops.demo.argocd) | See how to install, setup, and deploy applications to an EKS cluster using ArgoCD, and what it looks like to adopt GitOps. |
+| 5. | ansible.md | [dungpham91/devops.demo.ansible](https://github.com/dungpham91/devops.demo.ansible) | Coming soon!!! |
 
 ## 2. System architecture
 
