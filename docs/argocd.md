@@ -101,7 +101,7 @@ Ingress Controller is definitely needed first, because we only have EKS cluster 
 
 https://docs.aws.amazon.com/eks/latest/userguide/lbc-helm.html
 
-![argocd-01.jpg](../images/argocd/argocd-01.jpg)
+![alb-ingress-controller.jpg](../images/argocd/alb-ingress-controller.jpg)
 
 #### 2.4.2 ArgoCD
 
@@ -114,6 +114,8 @@ After installing ArgoCD's Helm chart on your EKS cluster, you will need to apply
 ```sh
 kubectl apply -f argocd-ingress.yaml
 ```
+
+![argocd-01.jpg](../images/argocd/argocd-01.jpg)
 
 ![argocd-02.jpg](../images/argocd/argocd-02.jpg)
 
