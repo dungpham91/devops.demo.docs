@@ -4,7 +4,7 @@
 
 I use Node.js and Express library to create Backend application, which provides API to Frontend application.
 
-> Please note that I am not a backend, backend or fullstack expert. I just google and do it.
+> Please note that I am not a frontend, backend or fullstack expert. I just google and do it.
 
 What does this application do?
 
